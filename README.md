@@ -1,2 +1,2 @@
-# react-native-redux-boilerplate
+# React Native/Expo/Redux/Jest/Enzyme/VSCode boilerplate
 Boilerplate code and installation instructions for a quick setup of a walking skeleton for a TDD process using React native + redux and Jest.  "A 'walking skeleton' is an implementation of the thinnest possible slice of real functionality that we can automatically build, deploy and test end-to-end." Source: Cockburn, Alistair. Crystal Clear: A Human-powered methodology for small teams, 2004.  It is ready to use with TDD with the basic setup for unit, integration and end to end tests
