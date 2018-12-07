@@ -1,13 +1,13 @@
 import {
-  FETCH_ITEMS, ADD_ITEM, fetchItems, addItem,
+  fetchItems, addItem,
 } from '../../src/actions/actions';
 import reducer from '../../src/reducers/reducer';
 
+const items = ['item1', 'item2', 'item3'];
 describe('FETCH ITEMS', () => {
   let initialState;
   let stateA;
   beforeEach(() => {
-    items = ['item1', 'item2', 'item3'];
     initialState = reducer(undefined, {});
     stateA = reducer(initialState, fetchItems(items));
   });
@@ -28,7 +28,6 @@ describe('ADD ITEMS', () => {
   let stateB;
   let stateC;
   beforeEach(() => {
-    items = ['item1', 'item2', 'item3'];
     initialState = reducer(undefined, {});
     stateA = reducer(initialState, fetchItems(items));
   });
@@ -38,4 +37,3 @@ describe('ADD ITEMS', () => {
     expect(stateC.items.length).toBe(5);
   });
 });
-

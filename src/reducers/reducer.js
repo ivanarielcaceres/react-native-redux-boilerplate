@@ -4,7 +4,7 @@ import initialState from '../store/initialState';
 export default function reducer(state = initialState, action) {
   switch (action.type) {
   case FETCH_ITEMS: {
-    const items = action.items;
+    const { items } = action;
     return {
       ...state,
       items,
