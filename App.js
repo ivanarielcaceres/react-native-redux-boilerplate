@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { Provider } from 'react-redux';
+import MainContainer from './src/containers/Main';
+import store from './src/store/store';
 
 export default class App extends Component {
   constructor() {
@@ -8,19 +10,9 @@ export default class App extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Text>afdsfdsafsdaf</Text>
-      </View>
+      <Provider store={store}>
+        <MainContainer />
+      </Provider>
     );
   }
 }
-
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
