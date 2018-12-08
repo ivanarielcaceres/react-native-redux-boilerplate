@@ -21,7 +21,7 @@ describe('<App />', () => {
     const wrapper = shallow(<App />);
     console.log(wrapper.debug());
     expect(wrapper.length).toBe(1);
-    expect(wrapper.contains(<Text>afdsaf</Text>)).toBe(true);
+    expect(wrapper.contains(<Text>afdsfdsafsdaf</Text>)).toBe(true);
   });
 
   // it('Test mount', () => {

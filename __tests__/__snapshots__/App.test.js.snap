@@ -18,7 +18,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <Component>
-        afdsaf
+        afdsfdsafsdaf
       </Component>,
       "style": Object {
         "alignItems": "center",
@@ -33,10 +33,10 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": "afdsaf",
+        "children": "afdsfdsafsdaf",
       },
       "ref": null,
-      "rendered": "afdsaf",
+      "rendered": "afdsfdsafsdaf",
       "type": [Function],
     },
     "type": [Function],
@@ -48,7 +48,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <Component>
-          afdsaf
+          afdsfdsafsdaf
         </Component>,
         "style": Object {
           "alignItems": "center",
@@ -63,10 +63,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": "afdsaf",
+          "children": "afdsfdsafsdaf",
         },
         "ref": null,
-        "rendered": "afdsaf",
+        "rendered": "afdsfdsafsdaf",
         "type": [Function],
       },
       "type": [Function],
